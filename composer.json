@@ -1,0 +1,36 @@
+{
+    "name": "atan/opensearch",
+    "description": "Aliyun Openearch for Laravel 5",
+    "keywords": [
+        "aliyun",
+        "opensearch",
+        "laravel"
+    ],
+    "homepage": "https://github.com/tanshiqi/opensearch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atan",
+            "email": "tanshiqi@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.0.*|5.1.*",
+        "php" : ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atan\\Opensearch\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
